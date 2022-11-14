@@ -1,0 +1,31 @@
+*{
+    font-family: 'Josefin Sans';
+}
+
+.nav-link{
+    color: black;
+}
+
+.logo-1{
+    width: 148px;
+   
+}
+
+.nav-link:hover{
+    color: #742296;
+}
+
+.allnavzy{
+    display: flex;
+    gap: 30px;
+}
+
+.night-mode{
+    position: relative;
+    right: 70px;
+    width: 44px;
+}
+
+h1{
+    font-weight: bold;
+}
