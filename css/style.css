@@ -31,3 +31,41 @@
 h1{
     font-weight: bold;
 }
+
+/* Here our main code starts */
+
+.image-1{
+width: 180px;
+height: 480px;
+background-image: url(../Images/Rectangle\ 2.png);
+background-position: center;
+background-size: cover;
+}
+
+.image-2{
+    width: 180px;
+    height: 480px;
+    background-image: url(../Images/Rectangle\ 3.png);
+    background-position: center;
+    background-size: cover;
+    }
+
+    .image-3{
+        width: 180px;
+        height: 480px;
+        background-image: url(../Images/Rectangle\ 4.png);
+        background-position: center;
+        background-size: cover;
+        }
+
+        .image-4{
+            width: 180px;
+            height: 480px;
+            background-image: url(../Images/Rectangle\ 5.png);
+            background-position: center;
+            background-size: cover;
+            }
+
+.main-contt{
+    display: flex;
+}
