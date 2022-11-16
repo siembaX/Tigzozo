@@ -40,6 +40,9 @@ height: 480px;
 background-image: url(../Images/Rectangle\ 2.png);
 background-position: center;
 background-size: cover;
+position: relative;
+top: 50px;
+
 }
 
 .image-2{
@@ -56,6 +59,8 @@ background-size: cover;
         background-image: url(../Images/Rectangle\ 4.png);
         background-position: center;
         background-size: cover;
+        position: relative;
+        top: 50px;
         }
 
         .image-4{
@@ -66,6 +71,54 @@ background-size: cover;
             background-size: cover;
             }
 
-.main-contt{
+.cont-all-items{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
 }
+
+/* .all-text-content{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.buttons-all{
+    display: flex;
+    gap: 20px;
+}
+
+.cont-rect{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.btn1{
+    border: none;
+    background-color: #742296;
+    color: white;
+    height: 40px;
+    width: 140px;
+}
+
+.btn2{
+    border: 6px solid #742296;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 140px;
+}
+
+.play-button{
+    width: 32px;
+}
+
+.play-items{
+display: flex;
+position: relative;
+top: 30px;
+}
+
