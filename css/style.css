@@ -269,10 +269,44 @@ h5{
     color: white;
 }
 
-.Happy-clients-section{
+.happy-clients-section{
     width: 100%;
     height: 100vh;
+    padding: 120px;
 }
+
+.happy-client{
+    width: 470px;
+    height: 350px;
+}
+
+.happy-client2{
+    width: 470px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.happc-all{
+
+    
+    position: relative;
+    top: 90px;
+    
+
+}
+
+h6{
+    font-weight: bold;
+}
+
+.happy-everything{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
