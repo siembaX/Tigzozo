@@ -212,7 +212,8 @@ h5{
     position: relative;
     top: 180px;
     left: 160px;
-    opacity: 60%;
+    opacity: 70%;
+    cursor:  pointer;
 
 
 }
@@ -223,6 +224,54 @@ h5{
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.services-section{
+    width: 100%;
+    height: 100vh;
+    padding: 120px;
+}
+
+.serv-rect-1{
+    background-image: url(../Images/About1.png);
+    width: 350px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.serv-rect-2{
+    background-color: #742296;
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.serv-rect-3{
+    background-image: url(../Images/About3.png);
+    width: 350px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.services-rectangles{
+    display: flex;
+    position: relative;
+    
+    gap: 20px;
+}
+
+.serv-rect-2 li{
+    line-height: 45px;
+    color: white;
+}
+
+.Happy-clients-section{
+    width: 100%;
+    height: 100vh;
 }
 
 
