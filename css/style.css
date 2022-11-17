@@ -181,6 +181,11 @@ gap: 10px;
 .img-dances{
     width: 400px;
     height: 400px;
+    background-image: url(../Images/dances.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
 }
 
 .dancediv{
@@ -198,6 +203,26 @@ left: 90px;
 
 h5{
     font-weight: bold;
+}
+
+.youtube-play{
+    width: 68px;
+    height: 68px;
+    display: flex;
+    position: relative;
+    top: 180px;
+    left: 160px;
+    opacity: 60%;
+
+
+}
+
+.overlay-c{
+    background-color: rgba(0, 0, 0, 0.519);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 
